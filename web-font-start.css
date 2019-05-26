@@ -1,6 +1,6 @@
 /* General setup */
 
-@font-face {
+/* @font-face {
   font-family: 'advent_proregular';
   src: url(fonts/'adventpro-regular-webfont.woff2') format('woff2'),
        url(fonts/'adventpro-regular-webfont.woff') format('woff');
@@ -20,6 +20,7 @@
   font-style: normal;
 
 }
+*/
 
 html {
   font-size: 10px;
@@ -44,7 +45,7 @@ h2 {
 }
 
 h1, h2 {
-  font-family: 'kaushan_scriptregular', Regular;
+  font-family: 'Staatliches', cursive;
 
 }
 
@@ -52,5 +53,10 @@ p {
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
-  font-family: 'advent_proregular';
+  font-family: 'Major Mono Display', monospace;
 }
+
+
+
+
+
