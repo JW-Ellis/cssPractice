@@ -1,0 +1,32 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+button {
+  width: 200px;
+  line-height: 3;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: rgb(202, 106, 37);
+  color: rgb(230, 112, 28);
+  text-shadow: 1px 1px 2px black;
+  border: 1px solid black;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0,0,0,0));
+  box-shadow: inset 2px 2px 3px rgba(38, 196, 17, 0.863),
+              inset -2px -2px 3px rgba(25, 46, 138, 0.822),
+              2px 2px 5px black;
+}
+
+p:hover {
+  background-image: linear-gradient(to bottom right, rgba(211, 28, 202, 0.884), rgb(24, 206, 94));
+}
+
+button:active {
+  box-shadow: inset 2px 2px 1px black,
+              inset 2px 3px 5px rgba(0, 0, 0, 0.308)
+              inset -2px -3px 5px rgb(111, 136, 19);
+              
+}
